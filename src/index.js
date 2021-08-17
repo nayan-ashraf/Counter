@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+
 import reportWebVitals from './reportWebVitals';
-import Counter from './components/counter.component';
+import App from './components/app.component';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
-  
-    <Counter/>,
-  
+   <App />, 
   document.getElementById('root')
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
