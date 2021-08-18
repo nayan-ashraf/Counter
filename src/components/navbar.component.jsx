@@ -7,7 +7,8 @@ class Navbar extends Component {
                     <div className="container-fluid ">
                         <a className="navbar-brand mx-auto text-white" href="#">
                            <h4>
-                           <span className="text-danger">C</span>ounter <span className="badge bg-secondary">4</span>
+                           <span className="text-danger">C</span>ounter 
+                           <span className="badge bg-secondary">{this.props.onNonZeroItems}</span>
                            </h4>
                         </a>
                     </div>
